@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const followingElement = document.querySelector('#following');
     const linkElement = document.querySelector('#link');
 
-    fetch('https://api.github.com/users/ogiansouza').then(function(response) {
+    fetch('https://api.github.com/users/TSCarol').then(function(response) {
             if (!response.ok) {
                 throw new Error('Não foi possível carregar os dados do usuário.');
             }
